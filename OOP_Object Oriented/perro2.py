@@ -9,6 +9,7 @@ class Perro:
         self.nombre = nombre
         self.edad = edad
         self.raza = raza
+        
         self.tamaño = tamaño
         self.color = None
         self.numero_de_juegos_restantes = 3
