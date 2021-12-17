@@ -1,6 +1,6 @@
 def add(x=10, y=8):
     return f"suma:{x + y}"
-
 print(add(20, 20))
 
-def get get_age(age=18):
+def get_age():
+    age=18
