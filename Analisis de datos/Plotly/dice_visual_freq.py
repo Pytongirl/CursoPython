@@ -1,8 +1,7 @@
 from cgitb import html
 from fileinput import filename
-from matplotlib.pyplot import bar, title
 from mydice import Dice
-from plotly.graph_objs import bar, Layout
+from plotly.graph_objs import Bar, Layout
 from plotly import offline
 
 dice = Dice()   #Aqui se da la instancia  y nombre de la clase
@@ -16,7 +15,7 @@ for value in range(dice.num_sides): #Iterando 6 veces
 
 #print(frequencies)
 x_values = list(range(1, dice.num_sides +1))
-data = [bar(x=x_values, y=frequencies)]
+data = [Bar(x=x_values, y=frequencies)]
 
 x_axis_config = {'title':'Result'}
 y_axis_config = {'title': 'Frequency of result'}

@@ -2,7 +2,7 @@ from matplotlib import pyplot
 
 pyplot.style.use("seaborn")
 
-x_values = list(range(1, 6))   ##En un rang el 1 valor es inclusivo,e ultimo exclusivo
+x_values = list(range(1, 1000000))   ##En un rang el 1 valor es inclusivo,e ultimo exclusivo
 y_values = [x **2 for x in x_values]
 
 
